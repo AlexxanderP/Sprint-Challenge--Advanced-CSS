@@ -1,1 +1,21 @@
 // Mixins Here
+
+.btnmix(@width; @bgc){
+    max-width: @width;
+    background-color: @bgc;
+    color: @porcelain;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    line-height: 1.5rem;
+    padding: 15px;
+
+    &:hover{
+        background-color: @porcelain;
+        color: @bgc;
+        cursor: pointer;
+    }
+}
+
+
